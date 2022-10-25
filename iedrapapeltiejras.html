@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./diseño.css">
+    <title>Juego</title>
+</head>
+<body>
+    <div class="container">
+        <header align="center">
+            <h1>PIEDRA PAPEL Y TIJERAS</h1>
+    
+        </header>
+    
+    
+    
+       <center>
+        
+          <img src="./stone.webp" style="width:100px" alt="stone"  onclick="jugar(0)">
+    
+           <img src="./papel.jpeg"style="width:100px" alt="papel" onclick="jugar(1)">
+    
+           <img src="./tijeras.jpeg"style="width:100px" alt="tijeras" onclick="jugar(2)">
+    </center>
+    
+    <h2>Jugador:</h2>
+    <h2 id="humano"></h2>
+    <h2>PC:</h2>
+    <h2 id="pc"></h2>   
+    <h2>El resultado es:</h2>
+    <h2 id="resultado"></h2>    
+    </div>
+     
+    
+</body>
+<script src="./operaciones.js"></script>
+</html>
